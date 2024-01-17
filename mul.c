@@ -7,7 +7,7 @@
  *
  * Return: nothing to returm
  */
-void mul(stack_t **head, unsigned int counter)
+void f_mul(stack_t **head, unsigned int counter)
 {
 	stack_t *current = *head;
 
