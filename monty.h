@@ -65,6 +65,6 @@ void f_queue(stack_t **head, unsigned int counter);
 void f_stack(stack_t **head, unsigned int counter);
 void free_stack(stack_t *head);
 void free_node(stack_t *node);
-void close_file_and_exit(void);
+void close_file_and_exit(stack_t **head);
 
 #endif
