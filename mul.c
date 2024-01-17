@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * mul - this multiplies the elements of stack top and bottom
+ * f_mul - this multiplies the elements of stack top and bottom
  * @head: head of the stack
  * @counter: line number in the code
  *
