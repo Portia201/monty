@@ -10,6 +10,17 @@
 #include <ctype.h>
 
 /**
+ * struct montyState_t - repreaents a specific structure
+ * @file: current file opened
+ * @content: content of the Monty code being processed
+ */
+typedef struct montyState_t
+{
+	FILE *file;
+	char *content;
+} montyState_t;
+
+/**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
  * @prev: points to the previous element of the stack (or queue)
@@ -66,5 +77,6 @@ void free_node(stack_t *node);
 void close_file_and_exit(stack_t **head);
 void f_push(stack_t **head, int value);
 void f_pall(stack_t *head);
+int main(int argc, char *argv[]);
 
 #endif

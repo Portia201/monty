@@ -4,7 +4,6 @@
  * f_push - pushes an element to the stack.
  * @head: Pointer to the head of the stack
  * @value: Integer value to push onto the stack
-: * @counter: Line number
  */
 void f_push(stack_t **head, int value)
 {
